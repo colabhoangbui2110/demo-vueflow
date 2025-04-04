@@ -1,0 +1,63 @@
+@import './base.css';
+@import 'https://cdn.jsdelivr.net/npm/@vue-flow/core@1.42.5/dist/style.css';
+@import 'https://cdn.jsdelivr.net/npm/@vue-flow/core@1.42.5/dist/theme-default.css';
+@import 'https://cdn.jsdelivr.net/npm/@vue-flow/controls@latest/dist/style.css';
+@import 'https://cdn.jsdelivr.net/npm/@vue-flow/minimap@latest/dist/style.css';
+@import 'https://cdn.jsdelivr.net/npm/@vue-flow/node-resizer@latest/dist/style.css';
+
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+}
+
+.vue-flow__minimap {
+  transform: scale(75%);
+  transform-origin: bottom right;
+}
+
+.vue-flow__panel {
+    background-color:#2d3748;
+    padding:10px;
+    border-radius:8px;
+    box-shadow:0 0 10px #00000080;
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+    font-size:12px;
+    font-weight:600
+}
+
+.vue-flow__panel .label {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:5px;
+    cursor:pointer
+}
+
+.vue-flow__panel .label input {
+    cursor:pointer
+}

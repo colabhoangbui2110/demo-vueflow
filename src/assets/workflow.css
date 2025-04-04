@@ -1,0 +1,33 @@
+.workflow-nodes {
+  height: 100vh;
+  width: 100%;
+}
+
+.email-action-node,
+.time-delay-node,
+.conditional-split-node,
+.trigger-node {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  min-width: 250px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
